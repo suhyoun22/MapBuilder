@@ -19,7 +19,7 @@ public class EndOfDayUI : MonoBehaviour, ITimeListener
             _timeManager.ResumeTime();
             endOfDayPanel.SetActive(false);
 
-            // 🌞 DayCycleManager 상태 초기화
+            //DayCycleManager 상태 초기화
             var cycleManager = FindObjectOfType<DayCycleManager>();
             if (cycleManager != null)
             {
