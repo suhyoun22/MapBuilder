@@ -1,49 +1,42 @@
-using TMPro;
-using UnityEngine;
+Ôªøusing UnityEngine;
+using UnityEngine.UI;
 
-public class EndOfDayUI : MonoBehaviour
+public class EndOfDayUI : MonoBehaviour, ITimeListener
 {
-    [SerializeField] GameObject panelObject; // DayEndPanel
-    [SerializeField] TextMeshProUGUI eventText;
+    [SerializeField] private GameObject endOfDayPanel;
+    [SerializeField] private Button nextDayButton;
 
-    void Start()
+    private TimeManager _timeManager;
+
+    public void Register(TimeManager timeManager)
     {
-        if (TimeManager.Instance != null)
+        _timeManager = timeManager;
+
+        timeManager.OnDayEnded += ShowEndOfDayPanel;
+        nextDayButton.onClick.AddListener(() =>
         {
-            Debug.Log("EndOfDayUI: ¿Ã∫•∆Æ ±∏µ∂ º∫∞¯");
-            TimeManager.Instance.OnDayEnded += ShowDayEndPanel;
-        }
-        else
-        {
-            Debug.LogWarning("EndOfDayUI: TimeManager.Instance∞° null¿‘¥œ¥Ÿ!");
-        }
+            _timeManager.ResetDay();
+            _timeManager.ResumeTime();
+            endOfDayPanel.SetActive(false);
+
+            // üåû DayCycleManager ÏÉÅÌÉú Ï¥àÍ∏∞Ìôî
+            var cycleManager = FindObjectOfType<DayCycleManager>();
+            if (cycleManager != null)
+            {
+                cycleManager.ForceSetToMorning();
+            }
+        });
     }
 
-    void OnDisable()
+    public void Unregister(TimeManager timeManager)
     {
-        if (TimeManager.Instance != null)
-        {
-            TimeManager.Instance.OnDayEnded -= ShowDayEndPanel;
-        }
+        timeManager.OnDayEnded -= ShowEndOfDayPanel;
+        nextDayButton.onClick.RemoveAllListeners();
     }
 
-    void ShowDayEndPanel()
+    private void ShowEndOfDayPanel()
     {
-        Debug.Log("ShowDayEndPanel »£√‚µ ");
-        if (panelObject == null)
-        {
-            Debug.LogError("panelObject∞° null¿‘¥œ¥Ÿ! Inspectorø° ø¨∞·«ﬂ¥¬¡ˆ »Æ¿Œ«œººø‰.");
-            return;
-        }
-
-        panelObject.SetActive(true);
-        eventText.text = "Someone caused chaos in the village after drinking a suspicious potion!";
-    }
-
-    public void OnNextDayButton()
-    {
-        panelObject.SetActive(false);
-        TimeManager.Instance.ResetDay();
-        TimeManager.Instance.ResumeTime();
+        endOfDayPanel.SetActive(true);
+        _timeManager.PauseTime();
     }
 }

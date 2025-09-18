@@ -1,33 +1,23 @@
-using System.Collections;
 using TMPro;
 using UnityEngine;
 
-public class UIClockDisplay : MonoBehaviour
+public class UIClockDisplay : MonoBehaviour, ITimeListener
 {
-    public TextMeshProUGUI timeText;
+    [SerializeField] private TextMeshProUGUI timeText;
 
-    void OnEnable()
+    public void Register(TimeManager timeManager)
     {
-        StartCoroutine(RegisterToTimeManager());
+        timeManager.OnMinuteChanged += UpdateTimeUI;
     }
 
-    IEnumerator RegisterToTimeManager()
+    public void Unregister(TimeManager timeManager)
     {
-        // TimeManager.Instance가 null이 아닐 때까지 대기
-        while (TimeManager.Instance == null)
-            yield return null;
-
-        TimeManager.Instance.OnMinuteChanged += UpdateTimeUI;
+        timeManager.OnMinuteChanged -= UpdateTimeUI;
     }
 
-    void OnDisable()
+    private void UpdateTimeUI(int hour, int minute)
     {
-        TimeManager.Instance.OnMinuteChanged -= UpdateTimeUI;
-    }
-
-    void UpdateTimeUI(int hour, int minute)
-    {
-        timeText.text = $"{hour:D2}:{minute:D2}";
-        // 또는 별도 애니메이션/효과 연출도 가능
+        int roundedMinute = (minute / 15) * 15;
+        timeText.text = $"{hour:D2}:{roundedMinute:D2}";
     }
 }

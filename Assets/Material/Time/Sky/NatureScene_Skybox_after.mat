@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &-4823623847929870537
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: z__GradientTex{"mode":0,"colorKeys":[{"color":{"r":0.6431372761726379,"g":0.5091240406036377,"b":0.14901958405971528,"a":1.0},"time":0.04118410125374794},{"color":{"r":0.8980392217636108,"g":0.565626859664917,"b":0.14901959896087647,"a":1.0},"time":0.1264667809009552},{"color":{"r":0.7647058963775635,"g":0.7287335395812988,"b":0.4000000059604645,"a":1.0},"time":0.5117723345756531}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1
+  m_CompleteImageSize: 4096
+  m_MipsStripped: 0
+  m_TextureFormat: 5
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 4096
+  _typelessdata: ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa48226ffa58226ffa58226ffa68226ffa78226ffa88326ffa88326ffa98326ffaa8326ffab8326ffab8326ffac8426ffad8426ffae8426ffae8426ffaf8426ffb08426ffb18526ffb18526ffb28526ffb38526ffb48526ffb48526ffb58626ffb68626ffb78626ffb78626ffb88626ffb98626ffba8726ffba8726ffbb8726ffbc8726ffbc8726ffbd8726ffbe8826ffbf8826ffbf8826ffc08826ffc18826ffc28826ffc28926ffc38926ffc48926ffc58926ffc58926ffc68926ffc78a26ffc88a26ffc88a26ffc98a26ffca8a26ffcb8a26ffcb8b26ffcc8b26ffcd8b26ffce8b26ffce8b26ffcf8b26ffd08c26ffd18c26ffd18c26ffd28c26ffd38c26ffd48c26ffd48d26ffd58d26ffd68d26ffd78d26ffd78d26ffd88d26ffd98e26ffda8e26ffda8e26ffdb8e26ffdc8e26ffdd8e26ffdd8f26ffde8f26ffdf8f26ffe08f26ffe08f26ffe18f26ffe29026ffe29026ffe39026ffe49026ffe59026ffe59026ffe59026ffe59126ffe59127ffe59127ffe59127ffe49127ffe49127ffe49127ffe49128ffe49128ffe49128ffe49228ffe49228ffe49228ffe49229ffe49229ffe39229ffe39229ffe39229ffe39229ffe3932affe3932affe3932affe3932affe3932affe3932affe3932affe3932bffe2932bffe2932bffe2942bffe2942bffe2942bffe2942cffe2942cffe2942cffe2942cffe2942cffe2942cffe1952dffe1952dffe1952dffe1952dffe1952dffe1952dffe1952effe1952effe1952effe1952effe1962effe1962effe0962fffe0962fffe0962fffe0962fffe0962fffe0962fffe09630ffe09730ffe09730ffe09730ffe09730ffe09730ffdf9730ffdf9731ffdf9731ffdf9731ffdf9731ffdf9831ffdf9831ffdf9832ffdf9832ffdf9832ffdf9832ffde9832ffde9832ffde9833ffde9933ffde9933ffde9933ffde9933ffde9933ffde9934ffde9934ffde9934ffde9934ffdd9934ffdd9a34ffdd9a35ffdd9a35ffdd9a35ffdd9a35ffdd9a35ffdd9a35ffdd9a36ffdd9a36ffdd9b36ffdc9b36ffdc9b36ffdc9b36ffdc9b37ffdc9b37ffdc9b37ffdc9b37ffdc9b37ffdc9b37ffdc9c37ffdc9c38ffdc9c38ffdb9c38ffdb9c38ffdb9c38ffdb9c38ffdb9c39ffdb9c39ffdb9d39ffdb9d39ffdb9d39ffdb9d39ffdb9d3affdb9d3affda9d3affda9d3affda9d3affda9d3affda9e3bffda9e3bffda9e3bffda9e3bffda9e3bffda9e3bffda9e3cffd99e3cffd99e3cffd99f3cffd99f3cffd99f3cffd99f3dffd99f3dffd99f3dffd99f3dffd99f3dffd99f3dffd99f3dffd8a03effd8a03effd8a03effd8a03effd8a03effd8a03effd8a03fffd8a03fffd8a03fffd8a13fffd8a13fffd7a13fffd7a140ffd7a140ffd7a140ffd7a140ffd7a140ffd7a140ffd7a241ffd7a241ffd7a241ffd7a241ffd7a241ffd6a241ffd6a242ffd6a242ffd6a242ffd6a242ffd6a342ffd6a342ffd6a343ffd6a343ffd6a343ffd6a343ffd6a343ffd5a343ffd5a343ffd5a444ffd5a444ffd5a444ffd5a444ffd5a444ffd5a444ffd5a445ffd5a445ffd5a445ffd4a445ffd4a545ffd4a545ffd4a546ffd4a546ffd4a546ffd4a546ffd4a546ffd4a546ffd4a547ffd4a647ffd4a647ffd3a647ffd3a647ffd3a647ffd3a648ffd3a648ffd3a648ffd3a648ffd3a648ffd3a748ffd3a749ffd3a749ffd2a749ffd2a749ffd2a749ffd2a749ffd2a749ffd2a74affd2a84affd2a84affd2a84affd2a84affd2a84affd2a84bffd1a84bffd1a84bffd1a84bffd1a84bffd1a94bffd1a94cffd1a94cffd1a94cffd1a94cffd1a94cffd1a94cffd1a94dffd0a94dffd0aa4dffd0aa4dffd0aa4dffd0aa4dffd0aa4effd0aa4effd0aa4effd0aa4effd0aa4effd0aa4effcfab4fffcfab4fffcfab4fffcfab4fffcfab4fffcfab4fffcfab50ffcfab50ffcfab50ffcfac50ffcfac50ffcfac50ffceac50ffceac51ffceac51ffceac51ffceac51ffceac51ffceac51ffcead52ffcead52ffcead52ffcead52ffcdad52ffcdad52ffcdad53ffcdad53ffcdad53ffcdae53ffcdae53ffcdae53ffcdae54ffcdae54ffcdae54ffcdae54ffccae54ffccae54ffccae55ffccaf55ffccaf55ffccaf55ffccaf55ffccaf55ffccaf56ffccaf56ffccaf56ffccaf56ffcbb056ffcbb056ffcbb056ffcbb057ffcbb057ffcbb057ffcbb057ffcbb057ffcbb057ffcbb058ffcbb158ffcab158ffcab158ffcab158ffcab158ffcab159ffcab159ffcab159ffcab159ffcab259ffcab259ffcab25affcab25affc9b25affc9b25affc9b25affc9b25affc9b25bffc9b25bffc9b35bffc9b35bffc9b35bffc9b35bffc9b35cffc8b35cffc8b35cffc8b35cffc8b35cffc8b45cffc8b45cffc8b45dffc8b45dffc8b45dffc8b45dffc8b45dffc8b45dffc7b45effc7b45effc7b55effc7b55effc7b55effc7b55effc7b55fffc7b55fffc7b55fffc7b55fffc7b55fffc6b65fffc6b660ffc6b660ffc6b660ffc6b660ffc6b660ffc6b660ffc6b661ffc6b661ffc6b661ffc6b761ffc6b761ffc5b761ffc5b762ffc5b762ffc5b762ffc5b762ffc5b762ffc5b762ffc5b863ffc5b863ffc5b863ffc5b863ffc5b863ffc4b863ffc4b863ffc4b864ffc4b864ffc4b964ffc4b964ffc4b964ffc4b964ffc4b965ffc4b965ffc4b965ffc3b965ffc3b965ffc3b965ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66ffc3ba66
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NatureScene_Skybox_after
+  m_Shader: {fileID: 4800000, guid: e32cae2a5bbfb41888ef2ba8391ababa, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: -4823623847929870537}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DirectionPitch: 27
+    - _DirectionYaw: 0
+    - _DstBlend: 0
+    - _Exponent: 2.02
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Intensity: 1.43
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.063545756, g: 0.52609116, b: 0.7924528, a: 1}
+    - _Color2: {r: 0.6035511, g: 0.7172993, b: 0.9339623, a: 1}
+    - _Direction: {r: 0, g: 0.8910065, b: 0.4539905, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
