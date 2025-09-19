@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NatureScene_BIllboardBush_01 4-Far_day
+  m_Name: NatureScene_BillboardBush_01 6-Tree_day_2
   m_Shader: {fileID: -6465566751694194690, guid: 28375c8afd8fa4900b90e1d5a4b6d88c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,11 +42,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Fill_Texture:
-        m_Texture: {fileID: 2800000, guid: 74e2869d217c8472c94b9f442630ff19, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2efa6eab67c844f59a5046943ae52cfc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Shape_Texture:
-        m_Texture: {fileID: 2800000, guid: ce42a47cd35914ff38b5fa109e5f0b46, type: 3}
+        m_Texture: {fileID: 2800000, guid: ded69d5ece95d4863bbd5eb38bc0208a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BakedGIRamp:
@@ -125,20 +125,14 @@ Material:
     m_Floats:
     - BILLBOARD_FACE_CAMERA_POSITION: 0
     - BILLBOARD_ROTATION: 2
-    - Billboard_Scale: 1.65
+    - Billboard_Scale: 1.1
     - Clip_Threshold: 0.004
-    - Fill_Impact: 0.302
-    - Fill_Scale: 1.54
+    - Fill_Impact: 0.335
+    - Fill_Scale: 0.8
     - Fresnel_Power: 1
     - Fresnel_Sharpness: 0.5
-    - Header_Fresnel: 0
-    - Offset_Along_Normal: 0.16
+    - Offset_Along_Normal: 0.08
     - Smoothness: 0
-    - Space_0: 0
-    - Space_2: 0
-    - Space_3: 0
-    - Space_4: 0
-    - Space_5: 0
     - Wind: 0
     - Wind_Speed: 0.1
     - Wind_Strength: 0.2
@@ -187,7 +181,7 @@ Material:
     - _ReceiveShadows: 1
     - _RimEnabled: 0
     - _SelfShadingSize: 0
-    - _ShadowStrength: 0.087
+    - _ShadowStrength: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularEnabled: 0
@@ -202,7 +196,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Fresnel_Color: {r: 0.68396217, g: 1, b: 0.8415377, a: 0.08627451}
+    - Fresnel_Color: {r: 0.92838585, g: 1, b: 0.68235296, a: 0.019607844}
     - Wind_Direction: {r: 1, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -223,7 +217,7 @@ Texture2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: z__ShadingGradientTextureTex{"mode":0,"colorKeys":[{"color":{"r":0.12824849784374238,"g":0.20754718780517579,"b":0.14372141659259797,"a":1.0},"time":0.0},{"color":{"r":0.12824849784374238,"g":0.20754718780517579,"b":0.14372141659259797,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_Name: z__ShadingGradientTextureTex{"mode":0,"colorKeys":[{"color":{"r":0.254257470369339,"g":0.2549019753932953,"b":0.16470588743686677,"a":1.0},"time":0.18529030680656434},{"color":{"r":0.47058823704719546,"g":0.46700984239578249,"b":0.25882354378700259,"a":1.0},"time":0.4411841034889221},{"color":{"r":0.6039215922355652,"g":0.581231951713562,"b":0.30588236451148989,"a":1.0},"time":0.5705958604812622},{"color":{"r":0.7450980544090271,"g":0.6758916974067688,"b":0.35686272382736208,"a":1.0},"time":0.7970550060272217},{"color":{"r":0.7921568751335144,"g":0.5619407296180725,"b":0.10196075588464737,"a":1.0},"time":0.9000076055526733}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -257,7 +251,7 @@ Texture2D:
   m_ColorSpace: 1
   m_PlatformBlob: 
   image data: 1024
-  _typelessdata: ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525ff213525
+  _typelessdata: ff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41412aff41422aff42422bff43432bff44442bff45452cff46462cff47472cff47472dff48482dff49492eff4a4a2eff4b4b2eff4c4c2fff4c4c2fff4d4d2fff4e4e30ff4f4f30ff505031ff515131ff525131ff525232ff535332ff545432ff555533ff565633ff575633ff575734ff585834ff595935ff5a5a35ff5b5a35ff5c5b36ff5d5c36ff5d5d36ff5e5e37ff5f5f37ff605f38ff616038ff626138ff626239ff636339ff646439ff65643aff66653aff67663aff68673bff68683bff69693cff6a693cff6b6a3cff6c6b3dff6d6c3dff6d6d3dff6e6e3eff6f6e3eff706f3fff71703fff72713fff737240ff737340ff747340ff757441ff767541ff777641ff787742ff797842ff7a7843ff7b7943ff7c7a43ff7d7b44ff7e7c44ff7f7d44ff807e45ff817f45ff827f45ff838046ff848146ff858247ff868347ff878447ff888548ff898648ff8a8748ff8b8749ff8c8849ff8d8949ff8e8a4aff8f8b4aff908c4bff918d4bff928e4bff938e4cff948f4cff95904cff96914dff97924dff98934dff99944eff9a944eff9b954eff9c954fff9c964fff9d964fff9d974fff9e974fff9f9750ff9f9850ffa09850ffa19950ffa19951ffa29951ffa29a51ffa39a51ffa49b51ffa49b52ffa59c52ffa69c52ffa69c52ffa79d53ffa79d53ffa89e53ffa99e53ffa99e54ffaa9f54ffab9f54ffaba054ffaca054ffaca155ffada155ffaea155ffaea255ffafa256ffb0a356ffb0a356ffb1a356ffb1a456ffb2a457ffb3a557ffb3a557ffb4a657ffb4a658ffb5a658ffb6a758ffb6a758ffb7a858ffb8a859ffb8a859ffb9a959ffb9a959ffbaaa5affbbaa5affbbab5affbcab5affbdab5affbdac5bffbeac5bffbeac59ffbfaa57ffbfa954ffc0a852ffc0a74fffc1a64dffc1a54affc2a448ffc2a345ffc2a243ffc3a040ffc39f3effc49e3bffc49d39ffc59c36ffc59b34ffc69a32ffc6992fffc7982dffc7962affc79528ffc89425ffc89323ffc99220ffc9911effca901bffca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1affca8f1a
   m_StreamData:
     serializedVersion: 2
     offset: 0
